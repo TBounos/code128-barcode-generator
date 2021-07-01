@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="a0" xml:space="preserve">
+    <value>11011001100</value>
+  </data>
+  <data name="a1" xml:space="preserve">
+    <value>11001101100</value>
+  </data>
+  <data name="a10" xml:space="preserve">
+    <value>11001000100</value>
+  </data>
+  <data name="a100" xml:space="preserve">
+    <value>10111101110</value>
+  </data>
+  <data name="a101" xml:space="preserve">
+    <value>11101011110</value>
+  </data>
+  <data name="a102" xml:space="preserve">
+    <value>11110101110</value>
+  </data>
+  <data name="a11" xml:space="preserve">
+    <value>11000100100</value>
+  </data>
+  <data name="a12" xml:space="preserve">
+    <value>10110011100</value>
+  </data>
+  <data name="a13" xml:space="preserve">
+    <value>10011011100</value>
+  </data>
+  <data name="a14" xml:space="preserve">
+    <value>10011001110</value>
+  </data>
+  <data name="a15" xml:space="preserve">
+    <value>10111001100</value>
+  </data>
+  <data name="a16" xml:space="preserve">
+    <value>10011101100</value>
+  </data>
+  <data name="a17" xml:space="preserve">
+    <value>10011100110</value>
+  </data>
+  <data name="a18" xml:space="preserve">
+    <value>11001110010</value>
+  </data>
+  <data name="a19" xml:space="preserve">
+    <value>11001011100</value>
+  </data>
+  <data name="a2" xml:space="preserve">
+    <value>11001100110</value>
+  </data>
+  <data name="a20" xml:space="preserve">
+    <value>11001001110</value>
+  </data>
+  <data name="a21" xml:space="preserve">
+    <value>11011100100</value>
+  </data>
+  <data name="a22" xml:space="preserve">
+    <value>11001110100</value>
+  </data>
+  <data name="a23" xml:space="preserve">
+    <value>11101101110</value>
+  </data>
+  <data name="a24" xml:space="preserve">
+    <value>11101001100</value>
+  </data>
+  <data name="a25" xml:space="preserve">
+    <value>11100101100</value>
+  </data>
+  <data name="a26" xml:space="preserve">
+    <value>11100100110</value>
+  </data>
+  <data name="a27" xml:space="preserve">
+    <value>11101100100</value>
+  </data>
+  <data name="a28" xml:space="preserve">
+    <value>11100110100</value>
+  </data>
+  <data name="a29" xml:space="preserve">
+    <value>11100110010</value>
+  </data>
+  <data name="a3" xml:space="preserve">
+    <value>10010011000</value>
+  </data>
+  <data name="a30" xml:space="preserve">
+    <value>11011011000</value>
+  </data>
+  <data name="a31" xml:space="preserve">
+    <value>11011000110</value>
+  </data>
+  <data name="a32" xml:space="preserve">
+    <value>11000110110</value>
+  </data>
+  <data name="a33" xml:space="preserve">
+    <value>10100011000</value>
+  </data>
+  <data name="a34" xml:space="preserve">
+    <value>10001011000</value>
+  </data>
+  <data name="a35" xml:space="preserve">
+    <value>10001000110</value>
+  </data>
+  <data name="a36" xml:space="preserve">
+    <value>10110001000</value>
+  </data>
+  <data name="a37" xml:space="preserve">
+    <value>10001101000</value>
+  </data>
+  <data name="a38" xml:space="preserve">
+    <value>10001100010</value>
+  </data>
+  <data name="a39" xml:space="preserve">
+    <value>11010001000</value>
+  </data>
+  <data name="a4" xml:space="preserve">
+    <value>10010001100</value>
+  </data>
+  <data name="a40" xml:space="preserve">
+    <value>11000101000</value>
+  </data>
+  <data name="a41" xml:space="preserve">
+    <value>11000100010</value>
+  </data>
+  <data name="a42" xml:space="preserve">
+    <value>10110111000</value>
+  </data>
+  <data name="a43" xml:space="preserve">
+    <value>10110001110</value>
+  </data>
+  <data name="a44" xml:space="preserve">
+    <value>10001101110</value>
+  </data>
+  <data name="a45" xml:space="preserve">
+    <value>10111011000</value>
+  </data>
+  <data name="a46" xml:space="preserve">
+    <value>10111000110</value>
+  </data>
+  <data name="a47" xml:space="preserve">
+    <value>10001110110</value>
+  </data>
+  <data name="a48" xml:space="preserve">
+    <value>11101110110</value>
+  </data>
+  <data name="a49" xml:space="preserve">
+    <value>11010001110</value>
+  </data>
+  <data name="a5" xml:space="preserve">
+    <value>10001001100</value>
+  </data>
+  <data name="a50" xml:space="preserve">
+    <value>11000101110</value>
+  </data>
+  <data name="a51" xml:space="preserve">
+    <value>11011101000</value>
+  </data>
+  <data name="a52" xml:space="preserve">
+    <value>11011100010</value>
+  </data>
+  <data name="a53" xml:space="preserve">
+    <value>11011101110</value>
+  </data>
+  <data name="a54" xml:space="preserve">
+    <value>11101011000</value>
+  </data>
+  <data name="a55" xml:space="preserve">
+    <value>11101000110</value>
+  </data>
+  <data name="a56" xml:space="preserve">
+    <value>11100010110</value>
+  </data>
+  <data name="a57" xml:space="preserve">
+    <value>11101101000</value>
+  </data>
+  <data name="a58" xml:space="preserve">
+    <value>11101100010</value>
+  </data>
+  <data name="a59" xml:space="preserve">
+    <value>11100011010</value>
+  </data>
+  <data name="a6" xml:space="preserve">
+    <value>10011001000</value>
+  </data>
+  <data name="a60" xml:space="preserve">
+    <value>11101111010</value>
+  </data>
+  <data name="a61" xml:space="preserve">
+    <value>11001000010</value>
+  </data>
+  <data name="a62" xml:space="preserve">
+    <value>11110001010</value>
+  </data>
+  <data name="a63" xml:space="preserve">
+    <value>10100110000</value>
+  </data>
+  <data name="a64" xml:space="preserve">
+    <value>10100001100</value>
+  </data>
+  <data name="a65" xml:space="preserve">
+    <value>10010110000</value>
+  </data>
+  <data name="a66" xml:space="preserve">
+    <value>10010000110</value>
+  </data>
+  <data name="a67" xml:space="preserve">
+    <value>10000101100</value>
+  </data>
+  <data name="a68" xml:space="preserve">
+    <value>10000100110</value>
+  </data>
+  <data name="a69" xml:space="preserve">
+    <value>10110010000</value>
+  </data>
+  <data name="a7" xml:space="preserve">
+    <value>10011000100</value>
+  </data>
+  <data name="a70" xml:space="preserve">
+    <value>10110000100</value>
+  </data>
+  <data name="a71" xml:space="preserve">
+    <value>10011010000</value>
+  </data>
+  <data name="a72" xml:space="preserve">
+    <value>10011000010</value>
+  </data>
+  <data name="a73" xml:space="preserve">
+    <value>10000110100</value>
+  </data>
+  <data name="a74" xml:space="preserve">
+    <value>10000110010</value>
+  </data>
+  <data name="a75" xml:space="preserve">
+    <value>11000010010</value>
+  </data>
+  <data name="a76" xml:space="preserve">
+    <value>11001010000</value>
+  </data>
+  <data name="a77" xml:space="preserve">
+    <value>11110111010</value>
+  </data>
+  <data name="a78" xml:space="preserve">
+    <value>11000010100</value>
+  </data>
+  <data name="a79" xml:space="preserve">
+    <value>10001111010</value>
+  </data>
+  <data name="a8" xml:space="preserve">
+    <value>10001100100</value>
+  </data>
+  <data name="a80" xml:space="preserve">
+    <value>10100111100</value>
+  </data>
+  <data name="a81" xml:space="preserve">
+    <value>10010111100</value>
+  </data>
+  <data name="a82" xml:space="preserve">
+    <value>10010011110</value>
+  </data>
+  <data name="a83" xml:space="preserve">
+    <value>10111100100</value>
+  </data>
+  <data name="a84" xml:space="preserve">
+    <value>10011110100</value>
+  </data>
+  <data name="a85" xml:space="preserve">
+    <value>10011110010</value>
+  </data>
+  <data name="a86" xml:space="preserve">
+    <value>11110100100</value>
+  </data>
+  <data name="a87" xml:space="preserve">
+    <value>11110010100</value>
+  </data>
+  <data name="a88" xml:space="preserve">
+    <value>11110010010</value>
+  </data>
+  <data name="a89" xml:space="preserve">
+    <value>11011011110</value>
+  </data>
+  <data name="a9" xml:space="preserve">
+    <value>11001001000</value>
+  </data>
+  <data name="a90" xml:space="preserve">
+    <value>11011110110</value>
+  </data>
+  <data name="a91" xml:space="preserve">
+    <value>11110110110</value>
+  </data>
+  <data name="a92" xml:space="preserve">
+    <value>10101111000</value>
+  </data>
+  <data name="a93" xml:space="preserve">
+    <value>10100011110</value>
+  </data>
+  <data name="a94" xml:space="preserve">
+    <value>10001011110</value>
+  </data>
+  <data name="a95" xml:space="preserve">
+    <value>10111101000</value>
+  </data>
+  <data name="a96" xml:space="preserve">
+    <value>10111100010</value>
+  </data>
+  <data name="a97" xml:space="preserve">
+    <value>11110101000</value>
+  </data>
+  <data name="a98" xml:space="preserve">
+    <value>11110100010</value>
+  </data>
+  <data name="a99" xml:space="preserve">
+    <value>10111011110</value>
+  </data>
+</root>
